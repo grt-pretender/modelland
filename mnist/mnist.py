@@ -38,7 +38,7 @@ model = keras.Sequential(
 # uncomment to see model's description
 # model.summary()
 
-# training hte model
+# training the model
 batch_size = 128
 epochs = 15
 model.compile(loss="categorical_crossentropy", optimizer="adam", metrics=["accuracy"])
